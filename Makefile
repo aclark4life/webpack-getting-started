@@ -344,8 +344,9 @@ webpack:
 #	webpack ./entry.js bundle.js
 #	webpack ./entry.js bundle.js --module-bind 'css=style-loader!css-loader'
 #	webpack
-#	webpack --progress --colors
-	webpack --progress --colors --watch
+	webpack --progress --colors
+#	webpack --progress --colors --watch
 
-
-
+webpack-serve:
+	@echo "\nServing HTTP on http://localhost:8080/webpack-dev-server/bundle ...\n" 
+	webpack-dev-server --progress --colors
