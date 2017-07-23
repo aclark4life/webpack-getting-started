@@ -336,3 +336,9 @@ vagrant-update:
 # Requires npm i -g create-webpack-config
 webpack-init:
 	webpack-config
+
+# webpack-getting-started
+.DEFAULT_GOAL=webpack
+webpack:
+	@$(MAKE) git-commit-auto-push
+	webpack ./entry.js bundle.js
