@@ -11,3 +11,5 @@ Webpack Getting Started
     bundle.js  2.5 kB       0  [emitted]  main
        [0] ./entry.js 29 bytes {0} [built]
 
+
+- https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed
