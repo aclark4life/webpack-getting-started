@@ -342,5 +342,6 @@ webpack-init:
 webpack:
 	@$(MAKE) git-commit-auto-push
 #	webpack ./entry.js bundle.js
-	webpack ./entry.js bundle.js --module-bind 'css=style-loader!css-loader'
+#	webpack ./entry.js bundle.js --module-bind 'css=style-loader!css-loader'
+	webpack
 
