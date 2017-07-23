@@ -13,3 +13,5 @@ Webpack Getting Started
 
 
 - https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed
+
+.. image:: screenshot.png
